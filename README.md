@@ -6,9 +6,11 @@ A java utility to compare configuration files for equipment for Allen Bradley. T
 Change the settings.ini communications settings for your Allen Bradley Controllogix PLC.
 Add your configuration sections in the ConfigurationTags.ini
 
+```
 [Name of the configuration file]
 tag01 = MyTag01|0.55
 tag02 = Program:MyTag02|1
+```
 
 The config file name inside brackets is whatever you want to output to the log, i.e. Bottle Equipment 2000. The config file name will only output if the tags inside that section compare to TRUE. tag01, tag02 are arbitrary names they can be named to anything.
 
