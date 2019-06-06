@@ -3,3 +3,7 @@ Version 2.0.0
 Redesigned utility for modular design. If new unit configs are added,
 just add the tags to compare on the ConfigurationTags.ini,
 this would minimize recompiling due to new configs added.
+
+Version 2.0.1
+
+Just testing raspberry pi git server, nothing to see here.
